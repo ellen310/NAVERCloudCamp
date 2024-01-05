@@ -6,7 +6,7 @@
 * 클라우드 기반 웹프로그래밍
   - Cloud 기술 이해
   - NCP IaaS 구성 및 활용
-  - JavaScript, React, Java, Spring ...
+  - JavaScript, React, Java, Spring
 
 * DevOps 프로그래밍
   - SaaS API
