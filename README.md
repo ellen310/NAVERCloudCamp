@@ -16,7 +16,7 @@
   - Docker
 
 * MSA 기반 프로그래밍
-	- kubernetes
+  - kubernetes
   - Spring Cloud
   - Spring 배치, Spring 시큐리티
 ```
