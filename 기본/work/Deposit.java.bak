@@ -1,0 +1,9 @@
+//package jb01.part01;
+
+public class Deposit 
+{
+	public static void main(String[] args) 
+	{
+
+	}//end of main
+}//end of class

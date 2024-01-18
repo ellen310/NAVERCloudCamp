@@ -1,0 +1,40 @@
+//package jb01.part06;
+
+public class OperatorTest {
+
+    public static void main(String[] args) {
+
+        int value = 1;
+        
+        value++;
+        System.out.println("value++: " + value);
+        ++value;
+        System.out.println("++value: " + value);
+
+        value--; 
+        System.out.println("value--: " + value);
+        --value; 
+        System.out.println("--value: " + value);
+        
+        int temp = value++; 
+        // int temp = value--; 
+        // int temp = ++value; 
+        // int temp = --value; 
+        System.out.println("temp: " + temp);
+        System.out.println("value: " + value);
+
+        // 나머지 연산자 사용하기
+        int temp01 = 5 % 2;
+        int temp02 = 5 % 3;
+
+        System.out.println("나머지 연산자: 5%2 ==> " + temp01);
+        System.out.println("나머지 연산자: 5%3 ==> " + temp02);
+
+        // 삼항 연산자 :: (조건) ? 조건이 참이면 : 조건이 거짓이면
+        int temp03 = (1 <= 2) ? 3 : 4;
+        System.out.println("삼항 연산자: (1 <= 2) 73 : 4 ==> " + temp03);
+
+        // int temp04 = (1 > 2) ? 73 : 4; // Compile Error 확인
+
+    }
+}
