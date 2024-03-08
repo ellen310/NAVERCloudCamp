@@ -1,4 +1,4 @@
-## 05. AOP 적용
+## 03. EL/JSTL 적용
 
-AspectJ활용. 
-임의로 main을 가진 TestApp.java를 두어 TDD 진행함.
+JSP는 MVC에서 view를 맡은 것 답게
+태그 중심으로 작성. 이를 위해 EL/JSTL 활용
