@@ -1,4 +1,4 @@
-## 05. AOP 적용
+## 06. Presentation, BusinessLogic 연결
 
-AspectJ활용. 
-임의로 main을 가진 TestApp.java를 두어 TDD 진행함.
+TDD기반으로 분리하여 개발한 Presentation Layer와
+BusinessLogic을 XML, Annotation을 활용해 연결함
