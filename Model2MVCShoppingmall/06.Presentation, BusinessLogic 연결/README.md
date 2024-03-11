@@ -1,4 +1,4 @@
 ## 06. Presentation, BusinessLogic 연결
 
-TDD기반으로 분리하여 개발한 Presentation Layer와
+TDD기반으로 분리하여 개발한 Presentation Layer와 <br/>
 BusinessLogic을 XML, Annotation을 활용해 연결함
