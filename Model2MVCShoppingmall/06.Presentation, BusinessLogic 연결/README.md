@@ -4,7 +4,7 @@ TDD기반으로 분리하여 개발한 Presentation Layer와 <br/>
 BusinessLogic을 XML, Spring @MVC Annotation을 활용해 연결함
 <br/><br/>
 
-## Spring @MVC 어노테이션 활용
+## Spring, Spring @MVC 어노테이션 활용
 
 - ### AS-IS
 
@@ -16,7 +16,9 @@ DispatcherServlet은 ~Action컨트롤러의 execute()를 호출해 컨트롤러�
 
 - ### TO-BE
 
-이제는 Spring의 @MVC를 활용하여 코드를 수정하였다.<br/>
+Spring을 사용하기로했다. 단일인입접이던 ActionServlet대신 Spring에서 제공해주는 DispatcherServlet, HandlerMapping 등을 사용한다.
+
+@MVC를 활용하여 코드를 수정하였다.<br/>
 ~ACTION클래스를 각각 만들지 않고, 하나의 Controller를 만들었다.<br/>
 <br/>
 URI pattern을 통해 /로 들어온 모든 request를 단일인입점 DispatcherServlet이 받으면<br/>
