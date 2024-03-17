@@ -8,14 +8,14 @@ common-servlet에 이러한 처리를 기술하였다.
 정적자원요청시 <mvc:resources mapping="/resources/**" location="/resources/" />와 같이 처리 경로location을 지정하였다.
 (resources폴더 아래에는 css, images, javascript등 동적 자원이 들어있다.)
 
-============================================
-# AS-IS
+===================================================================================================================================
+## AS-IS
 Action이라는 execute()기능을 공유하는 추상클래스를 통해
 Action을 확장하여 반드시 execute()를 포함하는~Action 컨트롤러를 만들고,
 properties파일에 listUser.do=listUserAction과 같이 기술하여 
 DispatcherServlet은 ~Action컨트롤러의 execute()를 호출해 컨트롤러의 역할을 수행(B/L수행, Model과View연결 등)했었다. 
 
-# TO-BE
+## TO-BE
 이제는 Spring의 @MVC를 활용하여 코드를 수정하였다.
 ~ACTION클래스를 각각 만들지 않고, 하나의 Controller를 만들었다.
 
