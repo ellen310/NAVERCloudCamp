@@ -1,15 +1,16 @@
 ## 05. AOP 적용
 
-### - AspectJ활용. 
-임의로 main을 가진 TestApp.java를 두어 TDD 진행함.<br/>
+- ### AspectJ활용. 
+임의로 main을 가진 TestApp.java를 두어 TDD 진행함.
+<br/>
 
 ======================================================================================
 
 <br/>
 
-### - Spring @MVC 어노테이션 활용
+## 05-2. Spring @MVC 어노테이션 활용
 
-## AS-IS
+- ### AS-IS
 
 Action이라는 execute()기능을 공유하는 추상클래스를 통해<br/>
 Action을 확장하여 반드시 execute()를 포함하는~Action 컨트롤러를 만들고,<br/>
@@ -17,7 +18,7 @@ properties파일에 listUser.do=listUserAction과 같이 기술하여 <br/>
 DispatcherServlet은 ~Action컨트롤러의 execute()를 호출해 컨트롤러의 역할을 수행(B/L수행, Model과View연결 등)했었다. <br/>
 <br/>
 
-## TO-BE
+- ### TO-BE
 
 이제는 Spring의 @MVC를 활용하여 코드를 수정하였다.<br/>
 ~ACTION클래스를 각각 만들지 않고, 하나의 Controller를 만들었다.<br/>
