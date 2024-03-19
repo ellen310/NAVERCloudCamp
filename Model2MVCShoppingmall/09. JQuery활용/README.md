@@ -1,6 +1,6 @@
 ## 09. JQuery활용
 
-철저히 JQuery 사용법을 익혔다. jsp부분만 수정하였다.
+철저히 JQuery(javascript framework) 사용법을 익혔다. jsp부분만 수정하였다.
 
 JQuery API를 사용하기 위해, element에 접근하는 다양한 방법을 연습했다.
 접근한 element를 $()를 통해 JQuery객체화하고, 거기에 JQuery API를 적용하기 위함이다.
