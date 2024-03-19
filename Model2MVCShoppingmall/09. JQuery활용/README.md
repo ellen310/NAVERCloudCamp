@@ -1,4 +1,4 @@
-## 07. JQuery
+## 09. JQuery활용
 
 철저히 JQuery 사용법을 익혔다. jsp부분만 수정하였다.
 
