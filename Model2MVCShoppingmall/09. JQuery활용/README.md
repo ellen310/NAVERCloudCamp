@@ -1,10 +1,10 @@
-## 07. URI pattern
+## 07. JQuery
 
-web.xml의 servlet-mapping을 /*.do에서 / 형식으로 변경하면서<br/>
-(웹개발에는 struts의 영향으로 .do가 관행적이지만, 앱에 기존 웹구조 활용을 고려하면서부터 수정했다. 사실 개발자 마음)<br/>
-아무튼 그래서 /로 들어오는 모든(정적, 동적)resource 요청시 처리를 해줘야하게 되었다.<br/>
+철저히 JQuery 사용법을 익혔다. jsp부분만 수정하였다.
 
-common-servlet에 이러한 처리를 기술하였다.<br/>
-동적자원 요청시 DispatcherServlet에게 처리방법지정,<br/>
-정적자원요청시 <mvc:resources mapping="/resources/**" location="/resources/" />와 같이 처리 경로location을 지정하였다.<br/>
-(resources폴더 아래에는 css, images, javascript등 동적 자원이 들어있다.)<br/>
+JQuery API를 사용하기 위해, element에 접근하는 다양한 방법을 연습했다.
+접근한 element를 $()를 통해 JQuery객체화하고, 거기에 JQuery API를 적용하기 위함이다.
+
+또한, html페이지의 element의 attribute에 있던 javascript를
+script쪽으로 모두 빼고, 위의 접근법을 통해 접근해서 제어하도록 수정하였기 때문에
+html과 javascript가 공존하던 문제(Decoupling)을 해결하였다.
